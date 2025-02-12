@@ -7,11 +7,20 @@
     height: 100vh;
   }
 
+.publish-date {
+    margin-bottom: 10px;
+}
+
 .title {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 10px;
     white-space: nowrap;
+}
+
+.title:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
 }
 
 .container {
@@ -27,15 +36,15 @@
     padding: 20px;
     border-radius: 15px;
     box-shadow: 10px 10px black;
-    width: 45vh;
-    height: 61vh;
-    margin: 20px;
+    width: 320px;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
     border: black solid 1px;
 }
 
 .card-content {
     max-width: 320px;
-
 }
 
 .card-image {
@@ -51,17 +60,18 @@
 .description {
     color: hsl(0, 0%, 42%);
     font-size: 16px;
-
+    line-height: 1.5;
+    margin-bottom: 20px;
 }
 
 .category {
     display: inline-block;
     background-color: hsl(47, 88%, 63%);
     color: black;
-    padding: 5px 10px;
+    padding: 7px 11px;
     border-radius: 5px;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 1000;
     justify-content: left;
 }
 
@@ -79,7 +89,7 @@
 }
 
 .profile-name {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
 }
 
