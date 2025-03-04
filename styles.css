@@ -7,18 +7,19 @@
     height: 100vh;
   }
 
-.publish-date {
+.card__publish__date {
     margin-bottom: 5px;
+    font-size: 15px;
 }
 
-.title {
+.card__title {
     font-size: 22px;
     font-weight: 700;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     white-space: nowrap;
 }
 
-.title:hover {
+.card__title:hover {
     color: hsl(47, 88%, 63%);
     cursor: pointer;
 }
@@ -43,11 +44,11 @@
     border: black solid 1px;
 }
 
-.card-content {
+.card__content {
     max-width: 320px;
 }
 
-.card-image {
+.card__image {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,40 +58,40 @@
     width: 100%;
 }
 
-.description {
+.card__description {
     color: hsl(0, 0%, 42%);
-    font-size: 14px;
-    line-height: 1.4;
+    font-size: 16px;
+    line-height: 1.5;
     margin-bottom: 20px;
 }
 
-.category {
+.card__category {
     display: inline-block;
     background-color: hsl(47, 88%, 63%);
     color: black;
-    padding: 7px 11px;
+    padding: 7px 10px;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 1000;
     justify-content: left;
 }
 
-.profile {
+.card__profile {
     display: flex;
     align-items: center;
     margin-top: 15px;
     gap: 10px;
 }
 
-.profile img {
-    width: 30px;
-    height: 30px;
+.card__profile__image {
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     filter: grayscale(50%);
 }
 
-.profile-name {
-    font-size: 16px;
+.card__profile__name {
+    font-size: 15px;
     font-weight: 700;
 }
 
